@@ -2,14 +2,14 @@
 text-align: center;
 }
 body{
-background-color: blue
+background-color: rgb(66, 66, 255);
 color: green;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+    color: rgb(252, 252, 252);
     text-decoration: none; 
     margin: 0 10px; 
   }
