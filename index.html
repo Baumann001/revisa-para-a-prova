@@ -84,13 +84,13 @@ A proposta  é permitir que o aluno não apenas revise o conteúdo teórico, mas
         <h3>🎨 Exemplo básico de CSS externo:</h3>
         <pre><code>/* style.css */
       body {
-        background-color: #f0f0f0;
-        font-family: Arial, sans-serif;
+        background-color: #f0f0f0; (Fundo)
+        font-family: Arial, sans-serif; (Fonte)
       }
       
       h1 {
-        color: #2c3e50;
-        text-align: center;
+        color: #2c3e50;  (Cor da fonte)
+        text-align: center; (alinhar no centro)
       }
       
       p {
@@ -150,8 +150,44 @@ A proposta  é permitir que o aluno não apenas revise o conteúdo teórico, mas
     </section>
 
     <section id="javascript">
-        
 
+      <div class="alinhar">
+        <h2>JavaScript</h2>
+      </div>
+        <p>JavaScript é uma linguagem de progrfamação essencialpara adicionar interatividade e dinamismo às páginas web. Com JavaScript, podemos manipular o conteúdo HTML, responder a eventos do usuário (como cliques do mouse), criar animações, enviar e receber dados de servidores e muito mais.</p>
+
+        <h3>📜 Manipulação do DOM (Document Object Model):</h3>
+<p>O DOM representa a estrutura da sua página HTML como uma árvore de objetos. JavaScript permite acessar e modificar esses objetos dinamicamente.</p>
+<pre><code class="language-javascript">
+// Exemplo: Alterar o texto de um elemento com o ID "mensagem"
+document.getElementById('mensagem').textContent = 'Olá, mundo!';
+
+// Exemplo: Adicionar um novo elemento à página
+const novoParagrafo = document.createElement('p');
+novoParagrafo.textContent = 'Este é um novo parágrafo criado com JavaScript.';
+document.body.appendChild(novoParagrafo);
+</code></pre>
+
+<h3>🖱️ Eventos:</h3>
+<p>JavaScript permite executar código em resposta a eventos que acontecem no navegador, como cliques, movimentos do mouse, carregamento da página, etc.</p>
+<pre><code class="language-javascript">
+// Exemplo: Adicionar um ouvinte de evento de clique a um botão com o ID "meuBotao"
+const botao = document.getElementById('meuBotao');
+botao.addEventListener('click', function() {
+    alert('Botão clicado!');
+});
+</code></pre>
+
+<h3>✨ Funcionalidade Interativa (Exemplo: Alterar Cor ao Passar o Mouse):</h3>
+<p>Vamos adicionar um exemplo prático de interatividade. Ao passar o mouse sobre o título "JavaScript", sua cor de fundo mudará.</p>
+<div id="js-titulo-container" class="alinhar">
+    <h2 id="js-titulo">JavaScript</h2>
+</div>
+
+<p>Este efeito será implementado no arquivo <a href="script.js" target="_blank">script.js</a>.</p>
+
+<h3>💡 Dica:</h3>
+<p>JavaScript é uma linguagem poderosa e versátil, fundamental para o desenvolvimento web moderno. Existem muitos frameworks e bibliotecas (como React, Angular e Vue.js) que facilitam a criação de aplicações web complexas.</p>
     </section>
 
 
